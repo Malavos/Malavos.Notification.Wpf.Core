@@ -4,6 +4,7 @@ using System.Windows.Controls;
 namespace Malavos.Notification.Wpf.Core.View
 {
     /// <summary>
+    /// Code behind for TextContentView.xaml
     /// Логика взаимодействия для TextContentView.xaml
     /// </summary>
     public partial class TextContentView : UserControl

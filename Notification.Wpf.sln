@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification.Wpf", "Notifications.Wpf\Notification.Wpf.csproj", "{5C9A4F46-263D-4C23-B361-F09E14BB109E}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Malavos.Notification.Wpf.Core", "Malavos.Notification.Wpf.Core\Malavos.Notification.Wpf.Core.csproj", "{7EDD1669-4573-459C-B9D1-580DC0FEC741}"
 EndProject
 Global
@@ -13,11 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5C9A4F46-263D-4C23-B361-F09E14BB109E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C9A4F46-263D-4C23-B361-F09E14BB109E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C9A4F46-263D-4C23-B361-F09E14BB109E}.Release|Any CPU.ActiveCfg = Release 4.6.1|Any CPU
-		{5C9A4F46-263D-4C23-B361-F09E14BB109E}.Release|Any CPU.Build.0 = Release 4.6.1|Any CPU
-		{5C9A4F46-263D-4C23-B361-F09E14BB109E}.Release|Any CPU.Deploy.0 = Release 4.6.1|Any CPU
 		{7EDD1669-4573-459C-B9D1-580DC0FEC741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7EDD1669-4573-459C-B9D1-580DC0FEC741}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EDD1669-4573-459C-B9D1-580DC0FEC741}.Release|Any CPU.ActiveCfg = Release|Any CPU

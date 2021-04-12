@@ -1,0 +1,90 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <LangVersion>latest</LangVersion>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontAwesome.WPF" Version="4.7.0.9" />
+    <PackageReference Include="FontAwesome5" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.31" />
+    <PackageReference Include="System.Runtime.WindowsRuntime" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PresentationCore">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\PresentationCore.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\PresentationFramework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="NotificationsOverlayWindow.xaml.cs">
+      <DependentUpon>NotificationsOverlayWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\NotificationProgress.xaml.cs">
+      <DependentUpon>NotificationProgress.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\TextContentView.xaml.cs">
+      <DependentUpon>TextContentView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="NotificationsOverlayWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Elements\Base.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Elements\Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Elements\ScrollViewer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Generic.xaml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Update="Themes\Main.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Sources.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Sources\Animations.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Sources\Colors.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Sources\EasingFunctions.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Sources\Effects.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Sources\Geometry.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Sources\Transformations.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\NotificationProgress.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\TextContentView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

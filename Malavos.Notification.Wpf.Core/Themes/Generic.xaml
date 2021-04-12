@@ -35,6 +35,8 @@
     <Color x:Key="WhiteColor" A="255"  R="255" G="255" B="255"/>
     <Color x:Key="BlackColor" A="255"  R="0" G="0" B="0"/>
 
+	<!-- TODO: Replace FA4 with 5. -->
+	<!-- TODO: Remove the FA4 package. -->
 	<!--<fa5:SvgAwesome Icon="Solid_Flag" VerticalAlignment="Center" HorizontalAlignment="Center" />-->
 
 	<fa:ImageAwesome x:Key="LinkIcon" Icon="Link" Foreground="{StaticResource WhiteBrush}" Height="20" Rotation="135" x:Shared="False"/>
